@@ -19,13 +19,23 @@ public class Sets {
             System.out.println(p);
         }
         System.out.println("Is Adam age 35 is in set: " + personSet.contains(new Person("Adam",35)));
-       // Stwórz nowy zbiór obiektów typu Person i dodaj do niego takie obiekty: "Zenon", 21 lat; "Stanisław",
-        // 28 lat, "Jan", 20 lat. Wypisz rozmiar tego zbioru.
-        Set
 
+        Set<Person> personSetSecond = new HashSet<>();
+        personSetSecond.add(new Person("Zenon",21));
+        personSetSecond.add(new Person("Stanisław",28));
+        personSetSecond.add(new Person("Jan",20));
 
+        personSet.addAll(personSetSecond);
 
+        System.out.println("Size of Person set: " + personSet.size());
+        personSet.removeAll(personSetSecond);
 
+        for (Person p : personSet){
+            System.out.println(p);
+        }
+        System.out.println("Is empty: " + personSet.isEmpty());
+        personSet.removeAll(personSet);
+        System.out.println("Is empty: " + personSet.isEmpty());
 
     }
 }
