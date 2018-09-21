@@ -1,3 +1,5 @@
+package pl.radox.collections;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -13,7 +15,7 @@ public class Sets {
         personSet.add(new Person("Jan",20));
         personSet.add(new Person("Zofia",41));
 
-        System.out.println("Size of Person set: " + personSet.size());
+        System.out.println("Size of pl.radox.collections.Person set: " + personSet.size());
         //sets dont have double records
         for (Person p : personSet){
             System.out.println(p);
@@ -27,7 +29,7 @@ public class Sets {
 
         personSet.addAll(personSetSecond);
 
-        System.out.println("Size of Person set: " + personSet.size());
+        System.out.println("Size of pl.radox.collections.Person set: " + personSet.size());
         personSet.removeAll(personSetSecond);
 
         for (Person p : personSet){

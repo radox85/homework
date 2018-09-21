@@ -1,3 +1,5 @@
+package pl.radox.collections;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -14,7 +16,7 @@ public class Lists {
         personList.add(new Person("Zofia", 41));
         personList.add(new Person("Jan", 24));
         //c
-        System.out.println("SIZE of Person list: \n" + personList.size());
+        System.out.println("SIZE of pl.radox.collections.Person list: \n" + personList.size());
         //d
         for (Person list : personList) {
             System.out.println(list);
@@ -33,7 +35,7 @@ public class Lists {
         personList.remove(new Person("Adam",35));
         //i
         System.out.println("List is empty: " + personList.isEmpty());
-        System.out.println("SIZE of Person list: \n" + personList.size());
+        System.out.println("SIZE of pl.radox.collections.Person list: \n" + personList.size());
         for (Person list : personList) {
             System.out.println(list);
         }

@@ -1,3 +1,5 @@
+package pl.radox.collections;
+
 import java.util.Objects;
 
 public class Person implements Comparable<Person> {

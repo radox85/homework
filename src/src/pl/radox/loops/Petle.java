@@ -1,7 +1,9 @@
-import javax.sound.midi.Soundbank;
+package pl.radox.loops;
+
+
 import java.util.Random;
 
- class Petle {
+class Petle {
     private final static int SIZEOFTAB = 10;
 
     //Zadanie 1
