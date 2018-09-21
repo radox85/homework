@@ -1,0 +1,15 @@
+﻿Zadanie łatwe: Napisz program, który odwróci podany napis przy użyciu stosu.
+
+Zadanie średnie: Zaimplementuj algorytm, który połączy dwie jednokierunkowe listy liczb całkowitych posortowanych rosnąco w trzecią jednokierunkową listę liczb całkowitych posortowanych rosnąco. Czyli np.: na wejściu mamy dwie listy:
+1->5->9->11->20->29
+4->5->10->18->27
+Wynikiem działania algorytmu ma być trzecia lista:
+1->4->5->5->9->10->11->18->20->27->29
+
+Zadanie trudne: Napisz program, który dla podanego wyrażenia matematycznego sprawdzi przy użyciu stosu poprawność nawiasowania. Wyrażenie powinno zostać podane jako napis. Przykład wyrażeń z poprawnym nawiasowaniem:
+{a + [b + (c + d)]}
+(a + b) * (c + d)
+[a + b] / (c + d)
+Przykład wyrażeń z niepoprawnym nawiasowaniem:
+(a + b] / (c + d)
+{a + (b + c]}

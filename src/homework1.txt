@@ -1,0 +1,29 @@
+Zadanie łatwe: Napisz program, który w danej tablicy dwuwymiarowej wskaże numery wierszy, w których elementy tworzą ciąg arytmetyczny. Określ złożoność obliczeniową Twojego algorytmu.
+
+Zadanie średnie: Liczbę antypierwszą definiujemy jako liczbę, która ma więcej dzielników niż każda dodatnia liczba całkowita mniejsza od niej. Napisz program, który dla wskazanego N znajdzie wszystkie liczby antypierwsze z przedziału [1,N]. Określ złożoność obliczeniową Twojego algorytmu.
+
+Zadanie trudne: Napisz program, który znajdzie długość najdłuższego ciągu (niekoniecznie spójnego!) kolejnych liczb w nieposortowanej tablicy. Np. dla tablicy [1, 100, 12, 4, 3, 17, 2] odpowiedzią jest 4 (najdłuższy ciąg: [1, 2, 3, 4]). Określ złożoność obliczeniową Twojego algorytmu.
+
+
+Zadanie łatwe: Zaimplementuj rekurencyjny algorytm liczenia silni z podanej liczby (https://pl.wikipedia.org/wiki/Silnia).
+
+Zadanie średnie: Napisz metodę, która dla danej tablicy losowych liczb zwróci k-ty największy element. Parametr k powinien być przekazany jako argument tej metody. Czy potrafisz napisać algorytm, który będzie działał w czasie O(nlogn)?
+
+Zadanie trudne: Zaimplementuj algorytm znajdywania maksymalnej wartości w podanej tablicy losowych intów dwiema metodami:
+- prostą metodą liniowego przeszukiwania całej tablicy
+- metodą „dziel i rządź”
+Czy potrafisz określić złożoność obu metod?
+
+
+Zadanie łatwe: Zaimplementuj klasę Computer z trzema polami: częstotliwość taktowania procesora (cpu), pamięć (ram), pojemność dysku (diskCapacity). Następnie utwórz tablicę obiektów typu Computer, wypełnij ją kilkoma przykładowymi instancjami klasy Computer i posortuj algorytmem sortowania przez wstawianie (insertion sort). Obiekty klasy Computer powinny być sortowane kolejno wg: cpu, ram, diskCapacity.
+
+Zadanie średnie: Stwórz algorytm obliczania n-tej liczby ciągu Fibonacciego (https://pl.wikipedia.org/wiki/Ci%C4%85g_Fibonacciego) metodą rekurencyjną.
+
+Zadanie trudne: Napisz w Swingu aplikację, która pozwoli na narysowanie wykresu zależności ilości wykonanych porównań od rozmiaru wejściowej tablicy dla trzech algorytmów sortowania: selection sort, merge sort, heap sort. Okienko aplikacji ma zawierać: miejsce na wykres i 3 buttony (każdy z buttonów odpowiada konkretnemu algorytmowi sortowania). Po kliknięciu w dany button powinien wykonać się test polegający na wykonaniu sortowania tablicy losowych intów dla 100 różnych rozmiarów tablicy (np. od 100 do 10000 co 100). Przy każdym sortowaniu należy zliczać ilość wykonanych porównań. W ten sposób otrzymamy zależności wykonanych porównań od rozmiaru tablicy (100 danych). Nie pozostaje nic innego jak narysować wykres :) Wykorzystaj bibliotekę JFreeChart (http://www.jfree.org/jfreechart/). Pobierz zależność do niej z repozytorium Mavena. Przykład tworzenia interesującego nas wykresu znajdziesz np. tutaj: http://www.codejava.net/java-se/graphics/using-jfreechart-to-draw-xy-line-chart-with-xydataset.
+
+
+Zadanie łatwe: Zaimplementuj algorytm, który metodą rekurencyjną odwróci przekazany napis.
+
+Zadanie średnie: Zaimplementuj algorytm, który dla podanego zdania (napisu składającego się tylko z małych i wielkich liter i spacji) zwróci długość ostatniego słowa w zdaniu. Zadanie wykonaj bez użycia metod split, indexOf i lastIndexOf. Nie używaj również wyrażeń regularnych. Czy potrafisz skonstruować algorytm działający w czasie O(N)?
+
+Zadanie trudne: Zaimplementuj algorytm, który dla danego napisu wypisze na ekran wszystkie permutacje jego liter. Np. dla napisu „xyz” wypisane powinny zostać: "xyz", "yzx", "zxy", "xzy", "yxz", "zyx"
