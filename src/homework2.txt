@@ -1,4 +1,4 @@
-﻿Zadanie łatwe: Napisz program, który odwróci podany napis przy użyciu stosu.
+﻿
 
 Zadanie średnie: Zaimplementuj algorytm, który połączy dwie jednokierunkowe listy liczb całkowitych posortowanych rosnąco w trzecią jednokierunkową listę liczb całkowitych posortowanych rosnąco. Czyli np.: na wejściu mamy dwie listy:
 1->5->9->11->20->29

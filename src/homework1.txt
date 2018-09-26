@@ -1,11 +1,11 @@
-Zadanie łatwe: Napisz program, który w danej tablicy dwuwymiarowej wskaże numery wierszy, w których elementy tworzą ciąg arytmetyczny. Określ złożoność obliczeniową Twojego algorytmu.
+
 
 Zadanie średnie: Liczbę antypierwszą definiujemy jako liczbę, która ma więcej dzielników niż każda dodatnia liczba całkowita mniejsza od niej. Napisz program, który dla wskazanego N znajdzie wszystkie liczby antypierwsze z przedziału [1,N]. Określ złożoność obliczeniową Twojego algorytmu.
 
 Zadanie trudne: Napisz program, który znajdzie długość najdłuższego ciągu (niekoniecznie spójnego!) kolejnych liczb w nieposortowanej tablicy. Np. dla tablicy [1, 100, 12, 4, 3, 17, 2] odpowiedzią jest 4 (najdłuższy ciąg: [1, 2, 3, 4]). Określ złożoność obliczeniową Twojego algorytmu.
 
 
-Zadanie łatwe: Zaimplementuj rekurencyjny algorytm liczenia silni z podanej liczby (https://pl.wikipedia.org/wiki/Silnia).
+
 
 Zadanie średnie: Napisz metodę, która dla danej tablicy losowych liczb zwróci k-ty największy element. Parametr k powinien być przekazany jako argument tej metody. Czy potrafisz napisać algorytm, który będzie działał w czasie O(nlogn)?
 
