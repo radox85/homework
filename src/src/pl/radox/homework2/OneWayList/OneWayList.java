@@ -1,7 +1,5 @@
 package pl.radox.homework2.OneWayList;
 
-import java.util.Optional;
-
 public class OneWayList {
     Node head = null;
 
@@ -19,28 +17,38 @@ public class OneWayList {
         return null;
     }
 
-    boolean append(Node newNode){
-        if (head==null){
-            head=newNode;
+    boolean append(Node newNode) {
+        if (head == null) {
+            head = newNode;
             return true;
-        }else{
+        } else {
             Node current = head;
-            while(current.getNext() != null){
-                current=current.getNext();
+            while (current.getNext() != null) {
+                current = current.getNext();
             }
             current.setNext(newNode);
         }
         return false;
     }
 
-    void insert (int value, int index){
+    void insert(int value, int index) {
         Node node = new Node(value);
-        if (head == null){
+        if (head == null) {
             head = node;
         }
 
     }
 
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        Node node = this.head;
+
+        while (node != null) {
+            sb.append(node.getValue()).append(" ");
+            node = node.getNext();
+        }
+        return sb.toString();
+    }
 
 
 }
